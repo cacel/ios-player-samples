@@ -93,11 +93,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C6D032245BE953B0C919B5D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E99B60302170DDD400B65C75 = {
 			isa = PBXGroup;
 			children = (
 				E99B603B2170DDD400B65C75 /* OfflinePlayer */,
 				E99B603A2170DDD400B65C75 /* Products */,
+				C6D032245BE953B0C919B5D1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};

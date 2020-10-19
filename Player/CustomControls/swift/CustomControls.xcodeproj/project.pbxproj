@@ -39,11 +39,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CAA0B23AF93C4D8256CBAA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E9DEE4F4216CEC430033C285 = {
 			isa = PBXGroup;
 			children = (
 				E9DEE4FF216CEC440033C285 /* CustomControls */,
 				E9DEE4FE216CEC430033C285 /* Products */,
+				3CAA0B23AF93C4D8256CBAA0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +105,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Brightcove, Inc";
 				TargetAttributes = {
 					E9DEE4FC216CEC430033C285 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1200;
 					};
 				};
 			};
@@ -196,6 +205,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -257,6 +267,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -299,7 +310,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.brightcove.CustomControls;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -317,7 +328,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.brightcove.CustomControls;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

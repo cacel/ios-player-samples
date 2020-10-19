@@ -66,6 +66,7 @@
 				49B39A241A16B7F300D2F6CC /* NativeControls */,
 				49B39A3E1A16B7F400D2F6CC /* NativeControlsTests */,
 				49B39A231A16B7F300D2F6CC /* Products */,
+				981659963368F954FACC2F73 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +120,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		981659963368F954FACC2F73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -163,7 +171,7 @@
 		49B39A1A1A16B7F300D2F6CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Brightcove;
 				TargetAttributes = {
 					49B39A211A16B7F300D2F6CC = {
@@ -285,6 +293,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -339,6 +348,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

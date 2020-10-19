@@ -40,6 +40,7 @@
 			children = (
 				E9227235223C357A000474A4 /* BasicSSAIPlayer */,
 				E9227234223C357A000474A4 /* Products */,
+				F5E106326996EC503692E6A8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +63,13 @@
 				E9227242223C357C000474A4 /* Info.plist */,
 			);
 			path = BasicSSAIPlayer;
+			sourceTree = "<group>";
+		};
+		F5E106326996EC503692E6A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,11 +99,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Brightcove, Inc";
 				TargetAttributes = {
 					E9227232223C357A000474A4 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1200;
 					};
 				};
 			};
@@ -188,6 +197,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -249,6 +259,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -291,7 +302,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.brightcove.BasicSSAIPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -309,7 +320,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.brightcove.BasicSSAIPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

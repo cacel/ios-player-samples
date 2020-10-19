@@ -35,11 +35,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BCC083B0CA43A17B2E921B9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E9DEE516216D42FD0033C285 = {
 			isa = PBXGroup;
 			children = (
 				E9DEE521216D42FD0033C285 /* DVRLive */,
 				E9DEE520216D42FD0033C285 /* Products */,
+				BCC083B0CA43A17B2E921B9B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};

@@ -50,6 +50,7 @@
 				4907B1D219D9DACF002EA892 /* VideoCloudBasicPlayer */,
 				4907B1EC19D9DACF002EA892 /* VideoCloudBasicPlayerTests */,
 				4907B1D119D9DACF002EA892 /* Products */,
+				D489AAECAD090A9074DDC591 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +105,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D489AAECAD090A9074DDC591 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -130,7 +138,7 @@
 		4907B1C819D9DACF002EA892 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Brightcove;
 				TargetAttributes = {
 					4907B1CF19D9DACF002EA892 = {
@@ -231,6 +239,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -286,6 +295,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -315,6 +325,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = VideoCloudBasicPlayer/Info.plist;
@@ -331,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = VideoCloudBasicPlayer/Info.plist;
